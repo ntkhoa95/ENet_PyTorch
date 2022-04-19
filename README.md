@@ -39,3 +39,5 @@ python init.py --mode test -m ./content/checkpoint/camvid/best_model.pth -i ./co
 python init.py --help
 ```
 
+### Reference
+1. A. Paszke, A. Chaurasia, S. Kim, and E. Culurciello. Enet: A deep neural network architecture for real-time semantic segmentation. arXiv preprint arXiv:1606.02147, 2016.
