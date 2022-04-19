@@ -8,7 +8,9 @@ The pre-trained of ENet trained with CamVid is available [here](https://github.c
 |                               Dataset                                |       Type     | Classes  | Input resolution | Batch size | Epochs |   Mean IoU (%)   | GFLOPS | Parameters|
 | :------------------------------------------------------------------: |:--------------:| :------------------: | :--------------: | :--------: | :----: | :---------------: | :-------: | :-------: | 
 | [CamVid](http://mi.eng.cam.ac.uk/research/projects/VideoRec/CamVid/) |    Original    |          11          |     480x360      |     10     |  -     | 58.3| 3.83 | 0.37M|
-| [CamVid](http://mi.eng.cam.ac.uk/research/projects/VideoRec/CamVid/) | Implementation |          11          |     480x360      |     10     |  100   | 59.5| 2.34 | 0.35M|
+| [CamVid](http://mi.eng.cam.ac.uk/research/projects/VideoRec/CamVid/) | Implementation |          11          |     480x360      |     10     |  100   | 58.6| 2.34 | 0.35M|
+
+![image](https://user-images.githubusercontent.com/54583824/163912822-13dda2b3-2cbe-4666-8fb6-7c09b4212716.png)
 
 ### To Use
 1. Clone the repository
