@@ -19,7 +19,7 @@ cd ENet_PyTorch
 
 2. Download the CamVid datasets
 
-Download the CamVid dataset and unzip to ./content/camvid/
+Download the CamVid dataset and unzip to `./content/camvid/`
 ```sh
 wget https://www.dropbox.com/s/pxcz2wdz04zxocq/CamVid.zip?dl=1 -O CamVid.zip
 unzip CamVid.zip
