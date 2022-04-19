@@ -17,15 +17,23 @@ The pre-trained of ENet trained with CamVid is available [here](https://github.c
 
 2. Download the CamVid datasets
 Download the CamVid dataset and unzip to ./content/camvid/
-`wget https://www.dropbox.com/s/pxcz2wdz04zxocq/CamVid.zip?dl=1 -O CamVid.zip`
-`unzip CamVid.zip`
+```sh
+wget https://www.dropbox.com/s/pxcz2wdz04zxocq/CamVid.zip?dl=1 -O CamVid.zip
+unzip CamVid.zip
+```
 
 3. Use command to train the model
-`python init.py --mode train -iptr ./content/camvid/train/ -lptr ./content/camvid/trainannot/`
+```
+python init.py --mode train -iptr ./content/camvid/train/ -lptr ./content/camvid/trainannot/
+```
 
 4. Use command to test model
-`python init.py --mode test -m ./content/checkpoint/camvid/best_model.pth -i ./content/camvid/test/0001TP_008550.png`
+```
+python init.py --mode test -m ./content/checkpoint/camvid/best_model.pth -i ./content/camvid/test/0001TP_008550.png
+```
 
 5. Use `--help` to get more commands
-`python init.py --help`
+```
+python init.py --help
+```
 
