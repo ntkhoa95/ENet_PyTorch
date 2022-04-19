@@ -12,8 +12,10 @@ The pre-trained of ENet trained with CamVid is available [here](https://github.c
 
 ### To Use
 1. Clone the repository
-`git clone https://github.com/ntkhoa95/ENet_PyTorch.git`
-`cd ENet_PyTorch`
+```
+git clone https://github.com/ntkhoa95/ENet_PyTorch.git
+cd ENet_PyTorch
+```
 
 2. Download the CamVid datasets
 Download the CamVid dataset and unzip to ./content/camvid/
