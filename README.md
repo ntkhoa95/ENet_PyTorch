@@ -4,9 +4,9 @@ Implementation of ENet using PyTorch (v.1.10)
 Implementation of [*ENet: A Deep Neural Network Architecture for Real-Time Semantic Segmentation*](https://arxiv.org/abs/1606.02147)
 
 This implementation is validated on the CamVid dataset.
-The pre-trained of ENet trained with CamVid is available [here](https://github.com/davidtvs/PyTorch-ENet/tree/master/save)
+The pre-trained of ENet trained with CamVid is available [here](https://github.com/ntkhoa95/ENet_PyTorch/tree/main/content/checkpoint/camvid/)
 
 |                               Dataset                                |       Type     | Classes  | Input resolution | Batch size | Epochs |   Mean IoU (%)   |
 | :------------------------------------------------------------------: |:--------------:| :------------------: | :--------------: | :--------: | :----: | :---------------: 
-| [CamVid](http://mi.eng.cam.ac.uk/research/projects/VideoRec/CamVid/) |    Original    |         12          |     480x360      |     10     |  -     | 52.1<sup>3</sup> |
-| [CamVid](https://www.cityscapes-dataset.com/)                        | Implementation |          12          |     480x360      |     10     |  100   | 59.5<sup>4</sup> |
+| [CamVid](http://mi.eng.cam.ac.uk/research/projects/VideoRec/CamVid/) |    Original    |          11          |     480x360      |     10     |  -     | 58.3|
+| [CamVid](http://mi.eng.cam.ac.uk/research/projects/VideoRec/CamVid/) | Implementation |          11          |     480x360      |     10     |  100   | 59.5|
